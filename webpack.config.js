@@ -3,14 +3,14 @@ module.exports = {
     module: {
         rules: [
             {
-                test: /\.js$/,
+                test: /\.js$, s[ac]ss$/i,
                 exclude: /node_modules/,
-                use: {
-                    loader: "babel-loader",
-                    options: {
-                        presets: ['@babel/preset-react']
-                    }
-                }
+                use: [
+                    "style-loader",
+                    "css-loader",
+                    "sass-loader",
+                    "babel-loader"
+                ]
             },
             {
                 test: /\.html$/,
