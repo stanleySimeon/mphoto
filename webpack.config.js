@@ -1,38 +1,31 @@
-const path = require('path');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
-
+const HtmlWebPackPlugin = require("html-webpack-plugin");
 module.exports = {
-    mode: 'none',
-    entry: { index: path.resolve(__dirname, 'src', 'index.js') },
-    output: {
-        path: path.resolve(__dirname, 'dist'),
-    },
     module: {
         rules: [
             {
-                test: /\.css$/i,
-                use: ['style-loader',
-                    'css-loader',
-                ],
+                test: /\.js$/,
+                exclude: /node_modules/,
+                use: {
+                    loader: "babel-loader",
+                    options: {
+                        presets: ['@babel/preset-react']
+                    }
+                }
             },
             {
-                test: /\.(png|svg|jpg|jpeg)$/,
+                test: /\.html$/,
                 use: [
                     {
-                        loader: 'file-loader',
-                        options: {
-                            name: '[name].[ext]',
-                            outputPath: './assets/',
-                        },
-                    },
-                ],
-            },
-        ],
+                        loader: "html-loader"
+                    }
+                ]
+            }
+        ]
     },
     plugins: [
-        new HtmlWebpackPlugin({
-            template: './public/index.html',
-        }),
-    ],
-
+        new HtmlWebPackPlugin({
+            template: "./src/index.html",
+            filename: "./index.html"
+        })
+    ]
 };
