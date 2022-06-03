@@ -8,14 +8,20 @@ function Home() {
             <Navbar />
             <div className="Home-container">
                 <div className="Home-text">
-                    <h1><strong>Welcome to</strong><br /><span className="tag-name"><strong>Martial</strong><br /><strong>Photography</strong></span></h1>
+                    <h1>
+                        <span className="box"><span className="welcome-bar"></span><strong className="welcome-text">Welcome to</strong></span><br />
+                        <span className="tag-name">
+                            <strong>Martial</strong><br />
+                            <strong>Photography</strong>
+                        </span><br />
+                    </h1>
                     <span className="slogan-text">
                         Your one stop shop for all your photography needs.
                     </span>
                 </div>
                 <span className="bullet-00"></span>
                 <span className="bullet-01"></span>
-                <span className="bullet-02"></span>
+                <div className="bullet-02"></div>
                 <button className="get-started-btn" type="button">Get Started</button>
             </div>
         </div>
