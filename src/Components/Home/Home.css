@@ -187,7 +187,7 @@
 
   .Home-container .get-started-btn {
     position: absolute;
-    bottom: 5%;
+    bottom: 2%;
     width: 120px;
     height: 30px;
     border-top: 1px solid var(--secondary-color);
