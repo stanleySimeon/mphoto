@@ -4,12 +4,12 @@ import { Link } from "react-scroll";
 import Logo from "./../../assets/mp-logo-white.PNG";
 import './Navbar.css';
 
-
 function Navbar() {
   const { pathname } = useLocation();
   const focus = {
     opacity: 1,
   };
+
   return (
     <header className="Navbar">
       <nav className="Nav-container">
