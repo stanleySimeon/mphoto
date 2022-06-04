@@ -23,12 +23,18 @@
     width: 30%;
 }
 
-a {
+li, .link {
+    list-style: none;
     text-decoration: none;
     color: var(--secondary-color);
     font-size: 1rem;
+    cursor: pointer;
 }
 
-a:hover {
+.link:hover {
+    color: var(--text-color);
+}
+.link:focus {
+    outline: none;
     color: var(--primary-color);
 }
