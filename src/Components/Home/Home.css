@@ -7,7 +7,7 @@
   }
 
   .Home-container {
-    height: 90vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -136,8 +136,8 @@
 
   .bullet-01 {
     position: absolute;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     right: 3%;
     border-radius: 100px;
     background-color: var(--circle-color);
@@ -185,11 +185,11 @@
     }
   }
 
-  .Home-container .get-started-btn {
+  .Home .get-started-btn {
     position: absolute;
-    bottom: 2%;
+    bottom: 5%;
     width: 120px;
-    height: 30px;
+    height: 40px;
     border: 1px solid var(--secondary-color);
     border-radius: 10px;
     letter-spacing: 2px;

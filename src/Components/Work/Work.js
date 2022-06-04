@@ -1,5 +1,17 @@
 import React from "react";
 import { useState } from "react";
+import img1 from "././../../assets/4AEF4B7D-AB3E-4860-A1C6-7BD6A9357407_1_105_c.jpeg";
+import img2 from "././../../assets/42D1FD7A-D780-4267-9F11-B6ACE87D1C36_1_105_c.jpeg";
+import img3 from "././../../assets/61AC484F-2F2C-4729-9773-EEE6EBBA22A1_1_105_c.jpeg";
+import img4 from "././../../assets/205D76DE-04DF-4FF0-9006-559DE96A36FB_1_105_c.jpeg";
+import img5 from "././../../assets/5145EDF7-DC48-4450-BC8B-24DD8E9B4D54_1_105_c.jpeg";
+import img6 from "././../../assets/B001F570-061D-4854-8731-5D67A785DCB9_1_105_c.jpeg";
+import img7 from "././../../assets/B9B12719-7F4E-4C10-B0FE-2BCEC7A71FDC_1_105_c.jpeg";
+import img8 from "././../../assets/F48EEC66-5258-4CAE-8CBF-FF046F5569D5_1_105_c.jpeg";
+import img9 from "././../../assets/FA7DA059-707D-42B6-9810-67D7DDD871FA_1_105_c.jpeg";
+import img10 from "././../../assets/FA7DA059-707D-42B6-9810-67D7DDD871FA_1_105_c.jpeg";
+import img11 from "././../../assets/FA7DA059-707D-42B6-9810-67D7DDD871FA_1_105_c.jpeg";
+import img12 from "././../../assets/FA7DA059-707D-42B6-9810-67D7DDD871FA_1_105_c.jpeg";
 import "../Navigation/Navbar.js"
 import "./Work.css";
 
@@ -9,73 +21,73 @@ export default function Work() {
       id: 1,
       title: "Portrait Photography",
       description: "In this section you'll see all available work I've been done in portrait photography. I've been done a lot of portraits for friends and family, and I've been also done some of my own.",
-      image: "https://static.showit.co/1200/lKXdm4sAQxKH84zzCF4v2g/55058/karissavantassel-10_karissa_van_tassel.jpg",
+      image: `${img1}`,
     },  
     {
       id: 2,
       title: "Wedding Photography",
       description: "In this section you'll see all available work I've been done in wedding photography. I've been done a lot of weddings for friends and family, and I've been also done some of my own.",
-      image: "https://www.avenuecalgary.com/wp-content/uploads/2021/12/WeddingsCover-1400x935.jpg",
+      image: `${img2}`,
     },
     {
       id: 3,
       title: "Commercial Photography",
       description: "In this section you'll see all available work I've been done in commercial photography. I've been done a lot of commercials for friends and family, and I've been also done some of my own.",
-      image: "https://sharaka.ma/wp-content/uploads/2020/12/commercial-sans-diplome-Comment-devenir-agent-commercial-2-1.jpg",
+      image: `${img3}`,
     },
     {
       id: 4,
       title: "Nature Photography",
       description: "In this section you'll see all available work I've been done in nature photography. I've been done a lot of nature for friends and family, and I've been also done some of my own.",
-      image: "https://s.yimg.com/ny/api/res/1.2/RXO6qkHjTyAy9Vf_C2BSzw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTMzMw--/https://s.yimg.com/uu/api/res/1.2/iSFrg5eBs65Bzp1wFq3Odg--~B/aD0zMzM7dz02NDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/fr/futura_43/fcee1ac43f9b71d3c7dd702fc58194c2",
+      image: `${img4}`
     },
     {
       id: 5,
       title: "Street Photography",
       description: "In this section you'll see all available work I've been done in street photography. I've been done a lot of street for friends and family, and I've been also done some of my own.",
-      image: "https://stylecaster.com/wp-content/uploads/2022/02/london-street-style.jpg",
+      image: `${img5}`,
     },
     {
       id: 6,
       title: "Architecture Photography",
       description: "In this section you'll see all available work I've been done in architecture photography. I've been done a lot of architecture for friends and family, and I've been also done some of my own.",
-      image: "https://images.squarespace-cdn.com/content/v1/5adb89f2aa49a19e7960b934/1564247875139-VKAASULJS0FNYPI9QJLS/mike-kelley-architecture-photography-1.jpg",
+      image: `${img6}`,
     },
     {
       id: 7,
       title: "Nature Photography",
       description: "In this section you'll see all available work I've been done in nature photography. I've been done a lot of nature for friends and family, and I've been also done some of my own.",
-      image: "https://www.avenuecalgary.com/wp-content/uploads/2021/12/WeddingsCover-1400x935.jpg",
+      image: `${img7}`,
     },
     {
       id: 8,
       title: "Street Photography",
       description: "In this section you'll see all available work I've been done in street photography. I've been done a lot of street for friends and family, and I've been also done some of my own.",
-      image: "https://stylecaster.com/wp-content/uploads/2022/02/london-street-style.jpg",
+      image: `${img8}`,
     },
     {
       id: 9,
       title: "Architecture Photography",
       description: "In this section you'll see all available work I've been done in architecture photography. I've been done a lot of architecture for friends and family, and I've been also done some of my own.",
-      image: "https://images.squarespace-cdn.com/content/v1/5adb89f2aa49a19e7960b934/1564247875139-VKAASULJS0FNYPI9QJLS/mike-kelley-architecture-photography-1.jpg",
+      image: `${img9}`,
     },
     {
       id: 10,
       title: "Nature Photography",
       description: "In this section you'll see all available work I've been done in nature photography. I've been done a lot of nature for friends and family, and I've been also done some of my own.",
-      image: "https://www.avenuecalgary.com/wp-content/uploads/2021/12/WeddingsCover-1400x935.jpg",
+      image: `${img10}`
     },
     {
       id: 11,
       title: "Street Photography",
       description: "In this section you'll see all available work I've been done in street photography. I've been done a lot of street for friends and family, and I've been also done some of my own.",
-      image: "https://stylecaster.com/wp-content/uploads/2022/02/london-street-style.jpg",
+      image: `${img11}`,
     },
     {
       id: 12,
       title: "Architecture Photography",
       description: "In this section you'll see all available work I've been done in architecture photography. I've been done a lot of architecture for friends and family, and I've been also done some of my own.",
-      image: "https://images.squarespace-cdn.com/content/v1/5adb89f2aa49a19e7960b934/1564247875139-VKAASULJS0FNYPI9QJLS/mike-kelley-architecture-photography-1.jpg",
+      image: `${img12}`
     },
   ]);
   return (
