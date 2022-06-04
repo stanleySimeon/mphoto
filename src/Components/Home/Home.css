@@ -190,11 +190,9 @@
     bottom: 2%;
     width: 120px;
     height: 30px;
-    border-top: 1px solid var(--secondary-color);
-    border-bottom: 1px solid var(--secondary-color);
-    border-left: 0px;
-    border-right: 0px;
-    letter-spacing: 3px;
+    border: 1px solid var(--secondary-color);
+    border-radius: 10px;
+    letter-spacing: 2px;
     outline: none;
     font-size: 1rem;
     font-weight: 500;
