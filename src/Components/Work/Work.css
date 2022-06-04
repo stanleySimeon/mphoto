@@ -1,36 +1,36 @@
 #Work {
-    min-height: 100vh;
-    padding: 50px 0;
-    background-color: var(--body-color);
-    display: flex;
-    justify-content: center;
+  min-height: 100vh;
+  padding: 50px 0;
+  background-color: var(--body-color);
+  display: flex;
+  justify-content: center;
 }
 
 .work-container {
-    width: 90%;
-    display: -ms-grid;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    justify-content: space-between;
-    align-items: center;
-    grid-gap: 20px;
+  width: 90%;
+  display: -ms-grid;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  justify-content: space-between;
+  align-items: center;
+  grid-gap: 20px;
 }
 
 .work-card {
-    width: 95%;
-    min-height: 95%;
-    padding: 10px;
-    gap: 10px;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    transition: all 0.3s ease-in-out;
-    margin: auto;
-    background-color: var(--circle-color);
+  width: 95%;
+  min-height: 95%;
+  padding: 10px;
+  gap: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.3s ease-in-out;
+  margin: auto;
+  background-color: var(--circle-color);
 }
 
 .img-card {
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    transition: all 0.3s ease-in-out;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  transition: all 0.3s ease-in-out;
 }
