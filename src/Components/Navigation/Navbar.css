@@ -28,7 +28,7 @@
 
 @media (min-width: 992px) {
   .Navbar {
-    height: 60px;
+    height: 80px;
     z-index: 999999;
   }
 

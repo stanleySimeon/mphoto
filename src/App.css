@@ -3,11 +3,12 @@
   padding: 0;
   font-family: 'Poppins', sans-serif;
 
-  --primary-color: rgb(176, 53, 0);
+  --primary-color: #c9440b;
   --secondary-color: rgb(255, 255, 255);
   --text-color: rgb(187, 187, 187);
   --button-color: rgb(202, 201, 201);
   --circle-color: rgb(187, 187, 187);
+  --message-color: rgb(46, 46, 46);
   --body-color: #07161c;
   --font: 'Arial', sans-serif;
 }
