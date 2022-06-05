@@ -7,16 +7,16 @@ function Contact() {
         <div className="Contact">
             <div className="Contact-container-top">
                 <h1> Let's Get In Touch </h1>
-                <span className="title-line"></span>
+                <span className="title-line-bottom-bar"></span>
             </div>
             <div className="Contact-container-middle">
-                <div className="Contact-container-left">
-                    <div className="Contact-container-left-first-element">
+                <div className="Contact-container-middle-left">
+                    <div className="Contact-container-middle-left-first-element">
                     </div>
-                    <div className="Contact-container-left-second-element">
+                    <div className="Contact-container-middle-left-second-element">
                     </div>
                 </div>
-                <div className="Contact-container-right">
+                <div className="Contact-container-middle-right">
                 </div>
             </div>
         </div>

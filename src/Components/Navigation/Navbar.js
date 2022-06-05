@@ -14,17 +14,17 @@ function Navbar() {
     <header className="Navbar">
       <nav className="Nav-container">
         <div className="Nav-logo">
-          <Link style={pathname === '/Home' ? focus : {}} smooth={true} duration={300} className="link" to="Home"><img className="logo" src={Logo} alt="logo" /></Link>
+          <Link style={pathname === '/Home' ? focus : {}} smooth={true} duration={100} className="link" to="Home"><img className="logo" src={Logo} alt="logo" /></Link>
         </div>
         <ul className="Nav-links">
           <li>
             <Link style={pathname === '/Work' ? focus : {}} smooth={true} duration={300} className="link" to="Work">WORK</Link>
           </li>
           <li>
-            <Link style={pathname === '/Services' ? focus : {}} smooth={true} duration={3000} className="link" to="Services">SERVICES</Link>
+            <Link style={pathname === '/Services' ? focus : {}} smooth={true} duration={300} className="link" to="Services">SERVICES</Link>
           </li>
           <li>
-            <Link style={pathname === '/Contact' ? focus : {}} smooth={true} duration={3000} className="link" to="Contact">CONTACT</Link>
+            <Link style={pathname === '/Contact' ? focus : {}} smooth={true} duration={200} className="link" to="Contact">CONTACT</Link>
           </li>
         </ul>
       </nav>
