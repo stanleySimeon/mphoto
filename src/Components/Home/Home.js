@@ -21,7 +21,7 @@ function Home() {
                 </div>
                 <span className="bullet-00"></span>
                 <span className="bullet-01"></span>
-            <button className="get-started-btn" type="button">Get Started</button>
+                <button className="get-started-btn" type="button">Get Started</button>
             </div>
         </div>
     );

@@ -322,7 +322,7 @@
 
   @keyframes animateBullet {
     0% {
-      transform: translateX(37rem);
+      transform: translateX(35rem);
       opacity: 0;
     }
 
@@ -358,8 +358,8 @@
 
   .Home-container .get-started-btn {
     position: absolute;
-    right: 5%;
-    bottom: 10%;
+    left: 20%;
+    bottom: 24%;
     width: 120px;
     height: 40px;
     border: none;
@@ -370,12 +370,26 @@
     color: var(--primary-color);
     cursor: pointer;
     z-index: 0;
-    border-radius: 60px;
+    border-radius: 10px;
+    animation: animateButton 1s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
+  }
+
+  @keyframes animateButton {
+    0% {
+      transform: translateX(-37rem);
+      opacity: 0;
+    }
+
+    100% {
+      transform: translateX(0);
+      opacity: 0.1;
+    }
   }
 
   .get-started-btn::before {
     content: '';
-    background: linear-gradient(45deg, #f00, #ff7300, #7a00ff, #ff00c8);
+    background: linear-gradient(45deg, #ff7300, #7a00ff, #ff00c8);
     position: absolute;
     top: -2px;
     left: -2px;
@@ -387,7 +401,7 @@
     animation: glowing 20s linear infinite;
     opacity: 0;
     transition: opacity 0.3s ease-in-out;
-    border-radius: 60px;
+    border-radius: 10px;
   }
 
   .get-started-btn::after {
@@ -399,14 +413,10 @@
     background: var(--button-color);
     left: 0;
     top: 0;
-    border-radius: 60px;
+    border-radius: 10px;
   }
 
   .get-started-btn:active::after {
-    background: transparent;
-  }
-
-  .get-started-btn:active {
     color: #000;
   }
 
