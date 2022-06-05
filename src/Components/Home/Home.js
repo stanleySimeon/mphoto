@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import React from "react";
 import "./Home.css";
 import Navbar from './../Navigation/Navbar';
@@ -18,10 +19,10 @@ function Home() {
                     <span className="slogan-text">
                         Your one stop shop for all your photography needs.
                     </span>
+                <button className="get-started-btn" type="button">Let's Talk</button>
                 </div>
                 <span className="bullet-00"></span>
                 <span className="bullet-01"></span>
-                <button className="get-started-btn" type="button">Get Started</button>
             </div>
         </div>
     );
