@@ -220,23 +220,18 @@
 
   .Home-text {
     position: absolute;
-    right: 40%;
+    left: 20%;
     width: 800px;
-    height: 800px;
-    border-radius: 400px;
+    height: 280px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     z-index: 100;
   }
 
   .box {
-    position: absolute;
-    left: 1.9em;
-    bottom: 15.5em;
-    width: 345px;
-    height: 40px;
+    width: 255px;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -251,7 +246,7 @@
   }
 
   .Home-text .welcome-text {
-    font-size: 1.5em;
+    font-size: 1em;
     font-family: var(--font);
     color: var(--text-color);
     animation: animate-welcome-bar-text 0.9s ease-in-out;
@@ -271,9 +266,9 @@
   }
 
   .Home-text .tag-name {
-    font-size: 3.5em;
+    font-size: 2.5em;
     color: var(--primary-color);
-    line-height: 100px;
+    line-height: 80px;
     animation: animateTagName 0.9s ease-in-out;
     transition: opacity 0.1s ease-in-out;
   }
@@ -291,14 +286,11 @@
   }
 
   .Home-text .slogan-text {
-    position: absolute;
-    left: 8%;
-    bottom: 27%;
     color: var(--secondary-color);
     font-size: 1em;
     font-weight: lighter;
     line-height: 60px;
-    letter-spacing: 5px;
+    letter-spacing: 2.5px;
     animation: animateIn 0.8s ease-in-out;
     transition: opacity 0.1s ease-in-out;
   }
@@ -360,34 +352,6 @@
 
     100% {
       transform: translateY(0);
-      opacity: 0.1;
-    }
-  }
-
-  .Home-container .bullet-02 {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 800px;
-    height: 800px;
-    right: 40%;
-    border-radius: 400px;
-    background-color: var(--circle-color);
-    opacity: 0.2;
-    animation: animateBullet2 0.3s ease-in-out;
-    transition: opacity 0.1s ease-in-out;
-  }
-
-  @keyframes animateBullet2 {
-    0% {
-      transform: translateX(-37rem);
-      opacity: 0;
-    }
-
-    100% {
-      transform: translateX(0);
       opacity: 0.1;
     }
   }
