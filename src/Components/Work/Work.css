@@ -51,10 +51,8 @@
     height: auto;
     display: -ms-grid;
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(350px, 1fr));
+    grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 10px;
-    grid-auto-flow: dense;
-    grid-auto-rows: 750px;
   }
 
   .work-container > .work-card {
