@@ -1,11 +1,11 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
 import "./Contact.css";
-import phone from "./././../..//assets/icons/phone-solid.png";
-import email from "./././../..//assets/icons/envelope-solid.png";
-import facebook from "./././../..//assets/icons/facebook-brands.png";
-import instagram from "./././../..//assets/icons/instagram-brands.png";
-import whatsapp from "./././../..//assets/icons/whatsapp-brands.png";
+import phone from "./././../../assets/icons/phone-solid.png";
+import email from "./././../../assets/icons/envelope-solid.png";
+import facebook from "./././../../assets/icons/facebook-brands.png";
+import instagram from "./././../../assets/icons/instagram-brands.png";
+import whatsapp from "./././../../assets/icons/whatsapp-brands.png";
 
 function Contact() {
     return (
