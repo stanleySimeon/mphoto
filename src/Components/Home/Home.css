@@ -220,10 +220,10 @@
 
   .Home-text {
     position: absolute;
-    right: 44%;
-    width: 600px;
-    height: 600px;
-    border-radius: 300px;
+    right: 40%;
+    width: 800px;
+    height: 800px;
+    border-radius: 400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -233,17 +233,17 @@
 
   .box {
     position: absolute;
-    left: 10%;
-    width: 247px;
+    left: 1.9em;
+    bottom: 15.5em;
+    width: 345px;
     height: 40px;
-    margin-bottom: -40px;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
   }
 
   .welcome-bar {
-    width: 100px;
+    width: 65px;
     height: 1px;
     background-color: var(--circle-color);
     animation: animate-welcome-bar-text 1s ease-in-out;
@@ -251,7 +251,7 @@
   }
 
   .Home-text .welcome-text {
-    font-size: 0.8em;
+    font-size: 1.5em;
     font-family: var(--font);
     color: var(--text-color);
     animation: animate-welcome-bar-text 0.9s ease-in-out;
@@ -271,9 +271,9 @@
   }
 
   .Home-text .tag-name {
-    font-size: 2.5em;
+    font-size: 3.5em;
     color: var(--primary-color);
-    line-height: 70px;
+    line-height: 100px;
     animation: animateTagName 0.9s ease-in-out;
     transition: opacity 0.1s ease-in-out;
   }
@@ -292,13 +292,13 @@
 
   .Home-text .slogan-text {
     position: absolute;
-    left: 10%;
+    left: 8%;
     bottom: 27%;
     color: var(--secondary-color);
-    font-size: 0.2em;
+    font-size: 1em;
     font-weight: lighter;
-    line-height: 50px;
-    letter-spacing: 3px;
+    line-height: 60px;
+    letter-spacing: 5px;
     animation: animateIn 0.8s ease-in-out;
     transition: opacity 0.1s ease-in-out;
   }
@@ -317,10 +317,10 @@
 
   .bullet-00 {
     position: absolute;
-    width: 100px;
-    height: 100px;
-    right: 44%;
-    border-radius: 50px;
+    width: 200px;
+    height: 200px;
+    right: 40%;
+    border-radius: 100px;
     background-color: var(--circle-color);
     opacity: 0.2;
     animation: animateBullet 0.5s ease-in-out;
@@ -342,10 +342,10 @@
 
   .bullet-01 {
     position: absolute;
-    width: 200px;
-    height: 200px;
-    right: 44%;
-    border-radius: 100px;
+    width: 300px;
+    height: 300px;
+    right: 40%;
+    border-radius: 150px;
     background-color: var(--circle-color);
     opacity: 0.2;
     animation: animateBullet1 0.5s ease-in-out;
@@ -370,10 +370,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 600px;
-    height: 600px;
-    right: 44%;
-    border-radius: 300px;
+    width: 800px;
+    height: 800px;
+    right: 40%;
+    border-radius: 400px;
     background-color: var(--circle-color);
     opacity: 0.2;
     animation: animateBullet2 0.3s ease-in-out;
