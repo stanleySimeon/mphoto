@@ -384,7 +384,7 @@
     }
   }
 
-  .Home-text .get-started-btn:hover{
+  .Home-text .get-started-btn:hover {
     color: var(--text-color);
     background: var(--primary-color);
   }

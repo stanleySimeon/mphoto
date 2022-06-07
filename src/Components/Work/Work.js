@@ -45,7 +45,9 @@ export default function Work() {
         <div className="work-container">
         {work.map((work) => (
           <div className="work-card" key={work.id}>
+            <div className="work-images">
             <img className="img-card" src={work.image} alt={work.title} />
+            </div>
             <div className="work-card-text">
               <h3>{work.title}</h3>
               <p>{work.description}</p>
