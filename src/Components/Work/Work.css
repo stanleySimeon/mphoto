@@ -100,7 +100,7 @@
     font-weight: 400;
     width: 100px;
     height: 30px;
-    border-radius: 5px;
+    border-radius: 1px;
     outline: none;
     border: none;
     color: var(--primary-color);
