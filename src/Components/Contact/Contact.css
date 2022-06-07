@@ -125,6 +125,9 @@
     outline: none;
     padding: 0 10px;
     font-weight: bold;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border-radius: 2px;
     color: var(--secondary-color);
     background-color: var(--primary-color) !important;
     cursor: pointer;
