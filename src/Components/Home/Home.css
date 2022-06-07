@@ -86,7 +86,7 @@
   .Home-text .slogan-text {
     position: absolute;
     left: 11%;
-    bottom: 27%;
+    bottom: 34%;
     color: var(--secondary-color);
     font-size: 8px;
     font-weight: lighter;
@@ -186,7 +186,7 @@
 
   .Home .get-started-btn {
     position: absolute;
-    bottom: 2%;
+    bottom: 3%;
     width: 120px;
     height: 40px;
     border: 1px solid var(--secondary-color);
