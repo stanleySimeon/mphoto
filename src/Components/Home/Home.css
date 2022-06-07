@@ -188,17 +188,18 @@
 
   .Home .get-started-btn {
     position: absolute;
-    bottom: 8%;
+    bottom: 16%;
+    left: 11%;
     width: 120px;
     height: 40px;
-    border: 1px solid var(--secondary-color);
-    border-radius: 10px;
+    background-color: var(--primary-color);
+    border-radius: 2px;
     letter-spacing: 2px;
+    border: none;
     outline: none;
     font-size: 1rem;
     font-weight: 500;
-    background: transparent;
-    color: var(--primary-color);
+    color: var(--secondary-color);
     cursor: pointer;
     z-index: 0;
   }

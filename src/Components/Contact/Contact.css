@@ -110,9 +110,8 @@
 
   .contact-form>input[type="text"],
   input[type="email"] {
-    height: 40px;
+    height: 30px;
     border: 1px solid var(--message-color);
-    padding: 0 10px;
     font-weight: lighter;
     color: var(--message-color);
   }
@@ -122,6 +121,8 @@
     height: 40px;
     align-self: center;
     margin: 20px 0;
+    border: none;
+    outline: none;
     padding: 0 10px;
     font-weight: bold;
     color: var(--secondary-color);
@@ -131,7 +132,6 @@
 
   .contact-form>textarea {
     border: 1px solid var(--message-color);
-    padding: 10px;
     font-weight: lighter;
     color: var(--message-color);
     resize: none;
@@ -139,11 +139,10 @@
 
   .inputName,
   .inputEmail,
-  .inputMessage,
-  input[type="submit"] {
-    border-radius: 5px;
+  .inputMessage{
+    padding: 5px;
     outline: none;
-    border: none;
+    border-radius: 2px;
     font-size: 1rem;
     font-weight: 400;
   }
