@@ -16,13 +16,12 @@
   .Home-text {
     position: absolute;
     width: 300px;
-    height: 300px;
+    height: 350px;
     border-radius: 300px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    z-index: 100;
   }
 
   .box {
@@ -212,8 +211,9 @@
   }
 
   .Home-container {
+    position: relative;
     width: 100%;
-    height: 90vh;
+    height: 100vh;
     display: flex;
     align-items: center;
   }
@@ -222,7 +222,7 @@
     position: absolute;
     left: 20%;
     width: 800px;
-    height: 300px;
+    height: 350px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -357,8 +357,8 @@
   }
 
   .Home-text .get-started-btn {
-    width: 100px;
-    height: 40px;
+    width: 120px;
+    height: 50px;
     border: none;
     outline: none;
     font-size: 1rem;
@@ -384,7 +384,8 @@
     }
   }
 
-  .Home-container .get-started-btn:hover {
-    background: var(--button-color)
+  .Home-text .get-started-btn:hover{
+    color: var(--text-color);
+    background: var(--primary-color);
   }
 }
