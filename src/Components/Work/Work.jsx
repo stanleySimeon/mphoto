@@ -12,7 +12,7 @@ import img3 from "././../../assets/42D1FD7A-D780-4267-9F11-B6ACE87D1C36_1_105_c.
 // import img10 from "././../../assets/FA7DA059-707D-42B6-9810-67D7DDD871FA_1_105_c.jpeg";
 // import img11 from "././../../assets/FA7DA059-707D-42B6-9810-67D7DDD871FA_1_105_c.jpeg";
 // import img12 from "././../../assets/FA7DA059-707D-42B6-9810-67D7DDD871FA_1_105_c.jpeg";
-import "../Navigation/Navbar.js"
+import "../Navigation/Navbar.jsx"
 import "./Work.css";
 
 export default function Work() {

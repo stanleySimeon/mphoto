@@ -2,6 +2,7 @@ import React from 'react';
 import Home from './Components/Home/Home';
 import Work from './Components/Work/Work';
 // import Services from './Components/Services/Services';
+import Footer from './Components/Footer/Footer';
 import Contact from './Components/Contact/Contact';
 import './App.css';
 
@@ -11,6 +12,7 @@ export default function App() {
       <Home />
       <Work />
       <Contact />
+      <Footer />
     </div>
   );
 }
