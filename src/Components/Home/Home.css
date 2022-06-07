@@ -69,6 +69,7 @@
     line-height: 0px;
     animation: animateTagName 0.9s ease-in-out;
     transition: opacity 0.1s ease-in-out;
+    z-index: 20;
   }
 
   @keyframes animateTagName {
@@ -186,7 +187,7 @@
 
   .Home .get-started-btn {
     position: absolute;
-    bottom: 3%;
+    bottom: 8%;
     width: 120px;
     height: 40px;
     border: 1px solid var(--secondary-color);
