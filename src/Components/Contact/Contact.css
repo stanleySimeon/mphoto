@@ -125,7 +125,7 @@
     padding: 0 10px;
     font-weight: bold;
     color: var(--secondary-color);
-    background-color: var(--primary-color);
+    background-color: var(--primary-color) !important;
     cursor: pointer;
   }
 
@@ -140,7 +140,7 @@
   .inputName,
   .inputEmail,
   .inputMessage,
-  .inputSubmit {
+  input[type="submit"] {
     border-radius: 5px;
     outline: none;
     border: none;
