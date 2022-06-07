@@ -89,13 +89,13 @@
   }
 
   .work-card-text p {
-    font-size: .9rem;
+    font-size: 0.9rem;
     font-weight: 400;
     margin: 0;
     color: var(--circle-color);
   }
 
-  .work-card-text .previewBtn>button {
+  .work-card-text .previewBtn > button {
     font-size: 1rem;
     font-weight: 400;
     width: 100px;
@@ -106,7 +106,7 @@
     color: var(--primary-color);
   }
 
-  .work-card-text .previewBtn>button:hover {
+  .work-card-text .previewBtn > button:hover {
     background-color: var(--primary-color);
     color: var(--secondary-color);
     border: 2px solid var(--secondary-color);
@@ -216,7 +216,7 @@
     color: var(--circle-color);
   }
 
-  .work-card-text .previewBtn>button {
+  .work-card-text .previewBtn > button {
     font-size: 1rem;
     font-weight: 400;
     width: 100px;
@@ -228,7 +228,7 @@
     cursor: pointer;
   }
 
-  .work-card-text .previewBtn>button:hover {
+  .work-card-text .previewBtn > button:hover {
     background-color: var(--primary-color);
     color: var(--secondary-color);
     border: 2px solid var(--secondary-color);

@@ -69,8 +69,8 @@
     color: var(--text-color);
   }
 
-  .Contact-container-middle-left-first-element>img,
-  .Contact-container-middle-left-second-element>img {
+  .Contact-container-middle-left-first-element > img,
+  .Contact-container-middle-left-second-element > img {
     width: 20px;
     color: var(--text-color);
   }
@@ -84,7 +84,7 @@
     align-items: center;
   }
 
-  .Contact-container-middle-left-third-element>img {
+  .Contact-container-middle-left-third-element > img {
     width: 30px;
     color: var(--text-color);
   }
@@ -108,7 +108,7 @@
     color: var(--text-color);
   }
 
-  .contact-form>input[type="text"],
+  .contact-form > input[type="text"],
   input[type="email"] {
     height: 30px;
     border: 1px solid var(--message-color);
@@ -130,7 +130,7 @@
     cursor: pointer;
   }
 
-  .contact-form>textarea {
+  .contact-form > textarea {
     border: 1px solid var(--message-color);
     font-weight: lighter;
     color: var(--message-color);
@@ -139,7 +139,7 @@
 
   .inputName,
   .inputEmail,
-  .inputMessage{
+  .inputMessage {
     padding: 5px;
     outline: none;
     border-radius: 2px;
@@ -218,8 +218,8 @@
     color: var(--text-color);
   }
 
-  .Contact-container-middle-left-first-element>img,
-  .Contact-container-middle-left-second-element>img {
+  .Contact-container-middle-left-first-element > img,
+  .Contact-container-middle-left-second-element > img {
     width: 30px;
     color: var(--text-color);
   }
@@ -234,13 +234,13 @@
     align-items: center;
   }
 
-  .Contact-container-middle-left-third-element>img {
+  .Contact-container-middle-left-third-element > img {
     width: 30px;
     color: var(--text-color);
     cursor: pointer;
   }
 
-  .Contact-container-middle-left-third-element>img:hover {
+  .Contact-container-middle-left-third-element > img:hover {
     transform: scale(1.2);
   }
 
@@ -265,7 +265,7 @@
     color: var(--text-color);
   }
 
-  .contact-form>input[type="text"],
+  .contact-form > input[type="text"],
   input[type="email"] {
     height: 40px;
     border: 1px solid var(--message-color);
@@ -293,7 +293,7 @@
     color: var(--primary-color);
   }
 
-  .contact-form>textarea {
+  .contact-form > textarea {
     border: 1px solid var(--message-color);
     padding: 10px;
     font-weight: lighter;
