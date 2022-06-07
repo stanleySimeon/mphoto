@@ -19,7 +19,7 @@ function Home() {
                     <span className="slogan-text">
                         Your one stop shop for all your photography needs.
                     </span>
-                <button className="get-started-btn" type="button">Let's Talk</button>
+                <button className="get-started-btn" type="button">Get Started</button>
                 </div>
                 <span className="bullet-00"></span>
                 <span className="bullet-01"></span>

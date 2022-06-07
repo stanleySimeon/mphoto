@@ -31,13 +31,13 @@ function Contact() {
                     </div>
                 </div>
                 <div className="Contact-container-middle-right">
-                    <form className="contact-form" action="#" method="POST">
+                    <form className="contact-form" action="#" method="#" autoComplete="off">
                         <label htmlFor="name" className="labelName label">Name</label>
                         <input type="text" name="name" className="inputName" placeholder="Your full name" required/>
                         <label htmlFor="email" className="labelEmail label">Email</label>
                         <input type="email" name="email" className="inputEmail" placeholder="Your email" required/>
                         <label htmlFor="message" className="labelMessage label">Message</label>
-                        <textarea name="message" className="inputMessage" placeholder="Write your message..." required cols={30} rows={8}/>
+                        <textarea name="message" className="inputMessage" maxLength={500} placeholder="Write your message..." required cols={30} rows={8}/>
                         <input type="submit" value="Send" className="inputSubmit" />
                     </form>
                 </div>
