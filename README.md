@@ -1,8 +1,8 @@
-# eventWeb-template
+# Martial Photography
 
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-- This Project was made to allows users to complain the full beauty of some photography shoot...
+- A Photography website
 
 Additional description about the project and its features.
 
