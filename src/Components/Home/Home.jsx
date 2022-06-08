@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
-import "./Home.css";
+import "./Home.scss";
 import Navbar from '../Navigation/Navbar';
 
 function Home() {

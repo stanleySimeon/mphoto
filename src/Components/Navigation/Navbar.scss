@@ -1,0 +1,119 @@
+@media (max-width: 991px) {
+  .Navbar {
+    width: 100%;
+    height: 60px;
+    z-index: 999999;
+    position: fixed;
+
+    .Nav-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 100%;
+      padding: 0 15px 0;
+
+      .Nav-mobile-open-close {
+        display: flex;
+        flex-direction: column;
+
+        .faBars {
+          font-size: 1.4em;
+          color: #fff;
+        }
+      }
+    }
+  }
+
+  .Nav-links {
+    display: none;
+  }
+
+  .Nav-links-mobile {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background-color: var(--primary-color);
+
+    li,
+    .link {
+      color: #fff;
+      font-size: 1.2rem;
+      list-style: none;
+      text-decoration: none;
+    }
+  }
+
+  .faTimes {
+    position: relative;
+    top: -10px;
+    font-size: 1.7em;
+    color: #fff;
+    z-index: 1;
+  }
+
+  .Nav-logo .logo {
+    width: 80px;
+    cursor: pointer;
+  }
+}
+
+@media (min-width: 992px) {
+  .Navbar {
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    z-index: 999999;
+
+    .Nav-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 100%;
+      padding: 0 100px 0;
+
+      .Nav-mobile-open-close {
+        display: none;
+      }
+    }
+  }
+
+  .Nav-logo .logo {
+    width: 140px;
+    cursor: pointer;
+  }
+
+  .Nav-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+
+    li,
+    .link {
+      list-style: none;
+      text-decoration: none;
+      color: var(--secondary-color);
+      font-size: 1rem;
+      cursor: pointer;
+    }
+
+    .link:hover {
+      color: var(--text-color);
+    }
+
+    .link:focus {
+      color: var(--primary-color);
+    }
+  }
+}

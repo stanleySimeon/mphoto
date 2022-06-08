@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
-import "./Contact.css";
+import "./Contact.scss";
 import phone from "./././../../assets/icons/phone-solid.png";
 import email from "./././../../assets/icons/envelope-solid.png";
 import facebook from "./././../../assets/icons/facebook-brands.png";
@@ -27,9 +27,9 @@ function Contact() {
                         </div>
                     </div>
                     <div className="Contact-container-middle-left-third-element">
-                        <img src={facebook} className="filterColor" alt="facebook-icon" />
-                        <img src={instagram} className="filterColor" alt="instagram-icon" />
-                        <img src={whatsapp} className="filterColor" alt="whatsapp-icon" />
+                        <img className="img-middle-left-third" src={facebook} alt="facebook-icon" />
+                        <img className="img-middle-left-third" src={instagram} alt="instagram-icon" />
+                        <img className="img-middle-left-third" src={whatsapp} alt="whatsapp-icon" />
                     </div>
                 </div>
                 <div className="Contact-container-middle-right">

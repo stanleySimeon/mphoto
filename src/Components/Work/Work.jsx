@@ -13,7 +13,7 @@ import img3 from "././../../assets/42D1FD7A-D780-4267-9F11-B6ACE87D1C36_1_105_c.
 // import img11 from "././../../assets/FA7DA059-707D-42B6-9810-67D7DDD871FA_1_105_c.jpeg";
 // import img12 from "././../../assets/FA7DA059-707D-42B6-9810-67D7DDD871FA_1_105_c.jpeg";
 import "../Navigation/Navbar.jsx"
-import "./Work.css";
+import "./Work.scss";
 
 export default function Work() {
   const [work] = useState([
@@ -39,7 +39,7 @@ export default function Work() {
   return (
     <div id="Work">
         <div className="explore">
-          <h3>Explore more</h3>
+          <h2>Explore more</h2>
           <span className="exploreBar"></span>
         </div>
         <div className="work-container">

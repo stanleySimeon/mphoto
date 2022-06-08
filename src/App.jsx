@@ -4,7 +4,7 @@ import Work from './Components/Work/Work';
 // import Services from './Components/Services/Services';
 import Footer from './Components/Footer/Footer';
 import Contact from './Components/Contact/Contact';
-import './App.css';
+import './App.scss';
 
 export default function App() {
   return (

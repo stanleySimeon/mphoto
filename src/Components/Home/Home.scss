@@ -1,0 +1,408 @@
+@media (max-width: 991px) {
+  .Home {
+    height: 100vh;
+    background-image: url("././../../assets/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .Home-container {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .Home-text {
+        position: absolute;
+        width: 300px;
+        height: 350px;
+        border-radius: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        z-index: 20;
+
+        .box {
+          position: absolute;
+          left: 11%;
+          width: 120px;
+          height: 20px;
+          display: flex;
+          justify-content: space-between;
+          align-items: baseline;
+          top: 110px;
+
+          .welcome-bar {
+            width: 28px;
+            height: 1px;
+            background-color: var(--circle-color);
+            animation: animate-welcome-bar-text 1s ease-in-out;
+            transition: opacity 0.5s ease-in-out;
+          }
+        }
+
+        .welcome-text {
+          font-size: 0.5em;
+          font-family: var(--font);
+          color: var(--text-color);
+          animation: animate-welcome-bar-text 0.9s ease-in-out;
+          transition: opacity 0.1s ease-in-out;
+
+          @keyframes animate-welcome-bar-text {
+            0% {
+              transform: translateX(-11rem);
+              opacity: 0;
+            }
+
+            100% {
+              transform: translateX(0);
+              opacity: 1;
+            }
+          }
+        }
+      }
+
+      .tag-name {
+        font-size: 1.2em;
+        color: var(--primary-color);
+        line-height: 0px;
+        animation: animateTagName 0.9s ease-in-out;
+        transition: opacity 0.1s ease-in-out;
+        z-index: 20;
+
+        @keyframes animateTagName {
+          0% {
+            transform: translateX(-111rem);
+            opacity: 0;
+          }
+
+          100% {
+            transform: translateX(0);
+            opacity: 1;
+          }
+        }
+      }
+
+      .slogan-text {
+        position: absolute;
+        left: 11%;
+        bottom: 34%;
+        color: var(--secondary-color);
+        font-size: 8px;
+        font-weight: lighter;
+        line-height: 5px;
+        letter-spacing: 1px;
+        animation: animateIn 0.8s ease-in-out;
+        transition: opacity 0.1s ease-in-out;
+
+        @keyframes animateIn {
+          0% {
+            transform: translateY(11rem);
+            opacity: 0;
+          }
+
+          100% {
+            transform: translateY(0);
+            opacity: 1;
+          }
+        }
+      }
+
+      .bullet-00 {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        right: 3%;
+        border-radius: 50px;
+        background-color: var(--circle-color);
+        opacity: 0.2;
+        animation: animateBullet 0.5s ease-in-out;
+        transition: opacity 0.1s ease-in-out;
+        z-index: 10;
+
+        @keyframes animateBullet {
+          0% {
+            transform: translateX(37rem);
+            opacity: 0;
+          }
+
+          100% {
+            transform: translateX(0);
+            opacity: 0.1;
+          }
+        }
+      }
+
+      .bullet-01 {
+        position: absolute;
+        width: 150px;
+        height: 150px;
+        right: 3%;
+        border-radius: 100px;
+        background-color: var(--circle-color);
+        opacity: 0.2;
+        animation: animateBullet1 0.5s ease-in-out;
+        transition: opacity 0.1s ease-in-out;
+
+        @keyframes animateBullet1 {
+          0% {
+            transform: translateY(-37rem);
+            opacity: 0;
+          }
+
+          100% {
+            transform: translateY(0);
+            opacity: 0.1;
+          }
+        }
+      }
+
+      .bullet-02 {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        height: 300px;
+        border-radius: 300px;
+        background-color: var(--circle-color);
+        opacity: 0.2;
+        animation: animateBullet2 0.3s ease-in-out;
+        transition: opacity 0.1s ease-in-out;
+
+        @keyframes animateBullet2 {
+          0% {
+            transform: translateX(-37rem);
+            opacity: 0;
+          }
+
+          100% {
+            transform: translateX(0);
+            opacity: 0.1;
+          }
+        }
+      }
+    }
+
+    .get-started-btn {
+      position: absolute;
+      bottom: 16%;
+      left: 11%;
+      width: 120px;
+      height: 40px;
+      background-color: var(--primary-color);
+      border-radius: 2px;
+      letter-spacing: 2px;
+      border: none;
+      outline: none;
+      font-size: 1rem;
+      font-weight: 500;
+      color: var(--secondary-color);
+      animation: animateBtn 0.8s ease-in-out;
+      transition: opacity 0.1s ease-in-out;
+      cursor: pointer;
+      z-index: 0;
+
+      @keyframes animateBtn {
+        0% {
+          transform: translateX(-37rem);
+          opacity: 0;
+        }
+
+        100% {
+          transform: translateX(0);
+          opacity: 0.1;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .Home {
+    height: 100vh;
+    background-image: url("././../../assets/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .Home-container {
+      position: relative;
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+
+      .Home-text {
+        position: absolute;
+        left: 20%;
+        width: 800px;
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        z-index: 100;
+
+        .box {
+          width: 255px;
+          display: flex;
+          justify-content: space-between;
+          align-items: baseline;
+
+          .welcome-bar {
+            width: 65px;
+            height: 1px;
+            background-color: var(--circle-color);
+            animation: animate-welcome-bar-text 1s ease-in-out;
+            transition: opacity 0.5s ease-in-out;
+          }
+        }
+
+        .welcome-text {
+          font-size: 1em;
+          font-family: var(--font);
+          color: var(--text-color);
+          animation: animate-welcome-bar-text 0.9s ease-in-out;
+          transition: opacity 0.1s ease-in-out;
+
+          @keyframes animate-welcome-bar-text {
+            0% {
+              transform: translateX(-11rem);
+              opacity: 0;
+            }
+
+            100% {
+              transform: translateX(0);
+              opacity: 1;
+            }
+          }
+        }
+
+        .tag-name {
+          font-size: 2.5em;
+          color: var(--primary-color);
+          line-height: 80px;
+          animation: animateTagName 0.9s ease-in-out;
+          transition: opacity 0.1s ease-in-out;
+
+          @keyframes animateTagName {
+            0% {
+              transform: translateX(-111rem);
+              opacity: 0;
+            }
+
+            100% {
+              transform: translateX(0);
+              opacity: 1;
+            }
+          }
+        }
+
+        .slogan-text {
+          color: var(--secondary-color);
+          font-size: 1em;
+          font-weight: lighter;
+          line-height: 60px;
+          letter-spacing: 2.5px;
+          animation: animateIn 0.8s ease-in-out;
+          transition: opacity 0.1s ease-in-out;
+
+          @keyframes animateIn {
+            0% {
+              transform: translateY(11rem);
+              opacity: 0;
+            }
+
+            100% {
+              transform: translateY(0);
+              opacity: 1;
+            }
+          }
+        }
+
+        .get-started-btn {
+          width: 120px;
+          height: 50px;
+          border: none;
+          outline: none;
+          font-size: 1rem;
+          font-weight: 600;
+          background: var(--button-color);
+          color: var(--primary-color);
+          cursor: pointer;
+          z-index: 0;
+          border-radius: 2px;
+          animation: animateButton 1s ease-in-out;
+          transition: opacity 0.5s ease-in-out;
+
+          @keyframes animateButton {
+            0% {
+              transform: translateX(-37rem);
+              opacity: 0;
+            }
+
+            100% {
+              transform: translateX(0);
+              opacity: 0.1;
+            }
+          }
+        }
+
+        .get-started-btn:hover {
+          color: var(--text-color);
+          background: var(--primary-color);
+        }
+      }
+
+      .bullet-00 {
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        right: 40%;
+        border-radius: 100px;
+        background-color: var(--circle-color);
+        opacity: 0.2;
+        animation: animateBullet 0.5s ease-in-out;
+        transition: opacity 0.1s ease-in-out;
+        z-index: 10;
+
+        @keyframes animateBullet {
+          0% {
+            transform: translateX(35rem);
+            opacity: 0;
+          }
+
+          100% {
+            transform: translateX(0);
+            opacity: 0.1;
+          }
+        }
+      }
+
+      .bullet-01 {
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        right: 40%;
+        border-radius: 150px;
+        background-color: var(--circle-color);
+        opacity: 0.2;
+        animation: animateBullet1 0.5s ease-in-out;
+        transition: opacity 0.1s ease-in-out;
+
+        @keyframes animateBullet1 {
+          0% {
+            transform: translateY(-37rem);
+            opacity: 0;
+          }
+
+          100% {
+            transform: translateY(0);
+            opacity: 0.1;
+          }
+        }
+      }
+    }
+  }
+}
